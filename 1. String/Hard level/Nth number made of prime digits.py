@@ -26,7 +26,7 @@ def primeDigits(N):
     counter = 0
     while counter < N:
         x = list_of_primes[counter]         # searching through the initial values and then the added ones
-        for i in first_primes:      # searching for prime numbers in a loop (2, 3, 5, 7, 2, 3, 5, 7...)
+        for i in first_primes:          # searching for prime numbers in a loop (2, 3, 5, 7, 2, 3, 5, 7...)
             new_list_item = x * 10 + i      # forming new prime numbers from these values (22, 23, 25, 27, 32, 33, 35, 37...)
             if new_list_item not in list_of_primes:
                 list_of_primes.append(new_list_item)
