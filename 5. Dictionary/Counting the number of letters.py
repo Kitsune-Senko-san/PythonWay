@@ -44,4 +44,4 @@ for i in range(1, 1112):
     hyphens_count = number.count('-')
     result += len(number) - space_count - hyphens_count
 
-print("from 1 to 1111 number of letters:", result)
+print("from 1 to 1111 numbers of letters:", result)
